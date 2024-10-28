@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.springTest.service.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.503 s <<< FAILURE! -- in com.example.springTest.service.UserServiceTest
+com.example.springTest.service.UserServiceTest.testVerifyUser_Success -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.RuntimeException: Authentication failed. Please check your credentials.
+	at com.example.spring.service.UserService.verify(UserService.java:59)
+	at com.example.springTest.service.UserServiceTest.testVerifyUser_Success(UserServiceTest.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

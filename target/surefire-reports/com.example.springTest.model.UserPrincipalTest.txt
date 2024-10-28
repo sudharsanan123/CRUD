@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.springTest.model.UserPrincipalTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! -- in com.example.springTest.model.UserPrincipalTest
+com.example.springTest.model.UserPrincipalTest.testGetAuthorities -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.example.spring.config.Role.name()" because the return value of "com.example.spring.model.Users.getRole()" is null
+	at com.example.spring.model.UserPrincipal.lambda$getAuthorities$19ba1de8$1(UserPrincipal.java:18)
+	at com.example.springTest.model.UserPrincipalTest.testGetAuthorities(UserPrincipalTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

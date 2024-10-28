@@ -1,0 +1,13 @@
+com\example\springTest\service\MyUserDetailsServiceTest.class
+com\example\springTest\service\StudentServiceTest.class
+com\example\springTest\controller\HelloControllerTest.class
+com\example\springTest\controller\UserControllerTest.class
+com\example\springTest\service\JWTServiceTests.class
+com\example\springTest\service\UserServiceTest.class
+com\example\springTest\model\StudentTest.class
+com\example\springTest\config\SecurityConfigTest.class
+com\example\springTest\model\UsersTest.class
+com\example\springTest\ApplicationMainTest.class
+com\example\springTest\controller\StudentControllerTest.class
+com\example\spring\config\JwtFilterTest.class
+com\example\springTest\model\UserPrincipalTest.class

@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.example.spring.config.JwtFilterTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.356 s <<< FAILURE! -- in com.example.spring.config.JwtFilterTest
+com.example.spring.config.JwtFilterTest.testDoFilterInternal_ValidToken_Authenticated -- Time elapsed: 0.016 s <<< FAILURE!
+Wanted but not invoked:
+userDetailsService.loadUserByUsername(
+    "testUser"
+);
+-> at com.example.spring.service.MyUserDetailsService.loadUserByUsername(MyUserDetailsService.java:21)
+Actually, there were zero interactions with this mock.
+
+	at com.example.spring.service.MyUserDetailsService.loadUserByUsername(MyUserDetailsService.java:21)
+	at com.example.spring.config.JwtFilterTest.testDoFilterInternal_ValidToken_Authenticated(JwtFilterTest.java:89)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
